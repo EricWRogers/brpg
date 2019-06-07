@@ -1,6 +1,8 @@
 #include <stdio.h>
 
+#include "debug.hpp"
+
 int main( int argc, const char* argv[] )
 {
-	printf( "Hello RPG" );
+	Log( "Hello RPG" );
 }
