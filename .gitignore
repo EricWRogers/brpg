@@ -1,3 +1,9 @@
+# VS cache directory
+.vs
+
+# VS Code cache directory
+.vscode
+
 # Bin folder
 [Bb]in/
 
