@@ -12,10 +12,10 @@ void MessageForPlayer(std::string messageToDisplay, std::string possibleChoices[
         std::cout << "" << std::endl;
         std::cout << messageToDisplay << std::endl;
 
-        for(int i = 0; i < std::size(*possibleChoices); i++)
-        {
-            std::cout << i + ": " + possibleChoices[i] << std::endl;
-        }
+        //for(int i = 0; i < std::size(*possibleChoices); i++)
+        //{
+        //    std::cout << i + ": " + possibleChoices[i] << std::endl;
+        //}
 
         std::cin >> response;
     }
